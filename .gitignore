@@ -1,2 +1,3 @@
-.idea
-.venvgit add .
+.idea/
+.venv/
+__pycache__/
