@@ -1,5 +1,7 @@
 # Digital Logic Circuit Simulator
 
+[![CI/CD Pipeline](https://github.com/NivYehoshua/digital-logic-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/NivYehoshua/digital-logic-simulator/actions/workflows/ci.yml)
+
 A dynamic, object-oriented digital logic gate simulator and truth table generator built entirely in Python. 
 
 This project bridges hardware engineering principles with software architecture, allowing users to input complex boolean expressions, which are then parsed and compiled into functional logic gate architectures in memory.
@@ -10,11 +12,13 @@ This project bridges hardware engineering principles with software architecture,
 * **Object-Oriented Architecture (OOP):** Utilizes abstract base classe ('LogicGate') and polymorphism ('AndGate', 'OrGate', 'NotGate') to simulate physical hardware behavior.
 * **Dynamic Truth Tables:** Automatically calculates and generates comprehensive truth tables for 2^n possible states of N-variable circuits.
 * **Defensive Programming:** Includes robust error handling and syntax validation to prevent crashes from invalid user inputs.
+* **Continuous Integration (CI/CD):** Automated testing pipeline using GitHub Actions and `pytest` to guarantee code reliability, validate logic gate behavior, Shunting Yard algorithm and simulator behavior and prevent regressions on every push.
 
 ## 💻 Tech Stack
 
 * **Language:** Python 
 * **Core Concepts:** OOP, Data Structures (Stacks/Queues),Shunting Yard Algorithm.
+  
 ## ⚙️ How to Run
 
 1. Clone the repository to your local machine:
