@@ -8,7 +8,6 @@ class LogicGate(ABC):
     def __init__(self, next_gates: list = None, inputs: list = None, fan_in: int = 2, fan_out: int = 1):
         """
         Initialize the gate with its incoming and outgoing connections.
-
         Args:
             next_gates: List of gates this gate feeds its output into.
             inputs: List of gates (or literal binary values) feeding into this gate.

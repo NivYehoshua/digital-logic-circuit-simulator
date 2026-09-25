@@ -95,5 +95,3 @@ def circuit_builder(bool_func: str, inputs_dict: dict | None = None):
     return output_stack[0]
 
 
-
-
