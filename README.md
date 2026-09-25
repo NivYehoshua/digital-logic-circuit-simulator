@@ -1,6 +1,6 @@
 # Digital Logic Circuit Simulator
 
-[![CI/CD Pipeline](https://github.com/NivYehoshua/digital-logic-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/NivYehoshua/digital-logic-simulator/actions/workflows/ci.yml)
+[![CI/CD Pipeline](https://github.com/NivYehoshua/digital-logic-circuit-simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/NivYehoshua/digital-logic-circuit-simulator/actions/workflows/ci.yml)
 
 A dynamic, object-oriented digital logic gate simulator and truth table generator built entirely in Python. 
 
